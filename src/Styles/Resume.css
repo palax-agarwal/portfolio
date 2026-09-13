@@ -1,0 +1,57 @@
+.resume-page {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+
+.name {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  text-align: center;
+}
+
+
+.location, .contact {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+
+.contact a {
+  color: #3498db;
+  text-decoration: none;
+  margin: 0 4px;
+}
+
+
+h2 {
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+  color: #2c3e50;
+}
+
+
+h3 {
+  margin-top: 1rem;
+  color: #2c3e50;
+}
+
+
+ul {
+  margin-left: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+
+.project {
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,74 @@
+Navbar.css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #1e293b;
+  padding: 16px 32px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  gap: 5px;
+}
+.navbar-logo img {
+  height: 60px;
+  width: 60px;
+  border-radius: 60%;
+  object-fit: contain;
+}
+
+.navbar-logo img:hover{
+  cursor: pointer;
+}
+
+.brand-text {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 44px;
+  margin-right: 20px;
+}
+.navbar-links li a {
+  text-decoration: none;
+  color: #f1f5f9;
+  font-size: 16px;
+  position: relative;
+  padding-bottom: 4px;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: #38bdf8;
+  transition: width 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #38bdf8;
+}
+
+.navbar-links li a:hover::after {
+  width: 100%;
+}
